@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive');
+
+
+body {
+	width: 95vw;
+	padding: 5px;
+	margin: auto;
+	border: 0px;
+	background-image: url("../res/background.gif");
+	background-repeat: repeat;
+	background-size: 50px;
+	
+	/*background-color: whitesmoke;
+	/*padding-top:20px;
+	padding-bottom: 20px;
+	padding-right: 2%;
+	padding-left: 2%;*/
+	/*position: fixed;*/
+
+}
+
+
+header {
+
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: 'Cedarville Cursive';
+	color: black;
+	font-size:20px;
+	margin-bottom: 5px;
+
+
+}
+
+header a{
+	color: black;
+}
+
+
+.card{
+
+	min-width: 92vw;
+	min-height: 92vh;
+	background-position: center;
+	background-size: cover;
+	background-color: #e8d3ca;
+	position: relative;
+	align-content: center;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.img{
+
+
+	float: left;
+	height: 100%;
+	width: 50%;
+	max-width: 50%;
+	position: relative;
+	
+}
+
+
+.imgcenter{
+
+	width: 100%;
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.info{
+
+	width: 50%;
+	float: right;
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.name{
+
+	font-size: 9.0vw;
+	font-family:Montserrat;
+	font-weight: 100;
+	padding-bottom: 10px;
+	float: left;
+	width: 100%;
+
+}
+
+.transcription{
+
+	float: left;
+	font-family:Perpetua;
+	font-weight: 100;
+	width: 100%;
+	font-size: 25px;
+	font-size: 1.5vw;
+}
+
+.definition{
+	
+	float: left;
+	font-family:Garamond;
+	font-weight: 100;
+	width: 100%;
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 10px;
+	font-size: 1.0vw;
+
+}
+
+.job{
+	
+	float: left;
+	font-family:Montserrat;
+	font-weight:normal;
+	width: 100%;
+	font-size: 25px;
+	padding-top: 10px;
+	font-size: 1.5vw;
+
+}
+
+.cardcontact{
+
+	size: 200px;
+	float: left;
+	color: black;
+	width: 100%;
+	font-weight: 900;
+	padding-top: 10px;
+
+}
+
+.cardcontact a{
+	padding-right: 10px;
+	color: black;
+	font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+.intro{
+
+	/*background-color: #c4c4c4;*/
+	/*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
+	background-image: radial-gradient(ellipse farthest-corner at 0 20%, #e2e2e2  50%, #e2e2e2  70%, #c2dae6 70%);
+	/*linear-gradient(135deg,#c2dae6 70%, #71b5e6 60%);*/
+
+	min-width: 92vw;
+	min-height: 92vh;
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+	position: relative;
+
+	margin-bottom: 10px;
+}
+
+.intro-text{
+	color: black;
+	width: 50%;
+	float: left;
+
+	font-size: 20px;
+    font-family: verdana;
+
+    font-weight: 50;
+    color: #7d78c3;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+    
+
+}
+
+.intro-text h1{
+	color: #71b5e6;
+	font-size: 9.0vw;
+	font-weight: 700;
+	padding-bottom: 15px;
+
+	text-shadow: 1px 1px 1px #5855af,
+        1px 2px 1px #5855af,
+        1px 3px 1px #5855af,
+        1px 4px 1px #5855af;
+}
+
+
+.img2{
+
+
+	float: right;
+	height: 100%;
+	width: 50%;
+	max-width: 50%;
+	position: relative;
+	
+}
+
+.cv {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #8c84ca ;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #8c84ca}
+  
+  .button:active {
+	background-color: #8c84ca;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
+
+.education{
+
+	background-color: rgb(247, 255, 177);
+	width: 100%;
+	min-height: 95vh;
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+	position: relative;
+	align-content: center;
+	padding-left: 6%;
+	padding-top: 12%;
+	margin-bottom: 10px;
+
+}
