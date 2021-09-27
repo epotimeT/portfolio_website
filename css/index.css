@@ -64,7 +64,9 @@ header a{
 
 .imgcenter{
 
-	width: 100%;
+
+	max-width: 100%;
+	max-height: 100%;
 	position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -145,18 +147,6 @@ header a{
 
 
 
-.intro-img{
-	text-align: center;
-	max-width: 92vw;
-}
-.img2{
-	
-	position: relative;
-
-}
-
-
-
 .intro{
 
 	background-color: #e2e2e2;
@@ -169,6 +159,7 @@ header a{
 	overflow: hidden;
 	background-position: center;
 	background-size: cover;
+	align-content: center;
 	border-radius: 25px;
 	position: relative;
 	padding: 2%;
@@ -176,7 +167,7 @@ header a{
 }
 
 .intro-text{
-	width: 100%;
+	width: 50%;
 	float: left;
 
 	padding-left: 5%;
@@ -240,21 +231,7 @@ header a{
 	text-shadow: 0px 2px 3px #555;
 }
 
-.blue{
-	color: #86d1f8;
-}
 
-.gery{
-	color:#acacae;
-}
-
-.lime{
-	color: #b7d563;
-}
-
-.orange{
-	color: #e7724f;
-}
 
 .cv {
 	margin-top: 10px;
@@ -264,12 +241,14 @@ header a{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	outline: none;
-	color: #fff;
+
+
+    color: #5a5a5a;
+
 	background-color: #e2e2e2 ;
-	border: none;
+
 	border-radius: 15px;
-	box-shadow: 0 3px #999;
+
   }
   
   .button:hover {background-color: #5a5a5a;}
@@ -281,9 +260,26 @@ header a{
   }
 
 
+  .intro-img{
+
+
+	float: right;
+	height: 100%;
+	width: 50%;
+	max-width: 50%;
+	position: relative;
+	background-image: url('../res/2.png');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: center; 
+
+	
+}
+
+
 .education{
 
-	background-color: rgb(247, 255, 177);
+	background-color: #948b91;
 	width: 100%;
 	min-height: 95vh;
 	background-position: center;
@@ -291,8 +287,35 @@ header a{
 	border-radius: 25px;
 	position: relative;
 	align-content: center;
-	padding-left: 6%;
-	padding-top: 12%;
+
 	margin-bottom: 10px;
 
+}
+
+.img3{
+
+	float: left;
+	text-align: center;
+	height: 100%;
+	width: 50%;
+	max-width: 50%;
+	position: relative;
+	background-image: url('../res/3.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center; 
+	
+	
+}
+
+.edutext{
+
+	top: 50%;
+	transform: translateY(-50%);
+	font-size:9vw;
+	font-weight: 700;
+    color: #948b91;
+	text-shadow: 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a;
+	
+	
 }
