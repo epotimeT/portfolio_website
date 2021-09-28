@@ -41,13 +41,14 @@ header a{
 
 	min-width: 92vw;
 	min-height: 92vh;
+	height: 92vh;
 	background-position: center;
 	background-size: cover;
 	background-color: #e8d3ca;
 	position: relative;
 	align-content: center;
 	border-radius: 25px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .img{
@@ -58,6 +59,11 @@ header a{
 	width: 50%;
 	max-width: 50%;
 	position: relative;
+	background-image: url('../res/1.gif');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: contain;
+	background-position:center;
 	
 }
 
@@ -141,7 +147,7 @@ header a{
 .cardcontact a{
 	padding-right: 10px;
 	color: black;
-	font-size: 1vw;
+	font-size: 1.5vw;
 }
 
 
@@ -155,7 +161,7 @@ header a{
 	/*linear-gradient(135deg,#c2dae6 70%, #71b5e6 60%);*/
 
 	min-width: 92vw;
-	min-height: 92vh;
+	height: 92vh;
 	overflow: hidden;
 	background-position: center;
 	background-size: cover;
@@ -163,7 +169,8 @@ header a{
 	border-radius: 25px;
 	position: relative;
 	padding: 2%;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	
 }
 
 .intro-text{
@@ -172,11 +179,12 @@ header a{
 
 	padding-left: 5%;
 	padding-right: 5%;
-	font-size: 20px;
-    font-family: verdana;
+	font-size:2vw;
+    font-family: Roboto;
 
-    font-weight: 500;
-    color: #5a5a5a;
+	font-weight:300;
+
+    color: black;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -189,7 +197,7 @@ header a{
 
 .intro-head{
 
-	font-size: 3em;
+	font-size: 4vw;
 	/*font-weight: 700;*/
 	font-family: Roboto;
 	padding-bottom: 5%;
@@ -197,61 +205,48 @@ header a{
 }
 
 
-.block {
 
 
-    font-weight: 700;
-    color: #f5f5f5;
-    text-shadow: 1px 1px 1px #919191,
-        1px 2px 1px #919191,
-        1px 3px 1px #919191,
-        1px 4px 1px #919191,
-        1px 5px 1px #919191,
-        1px 6px 1px #919191,
-        1px 7px 1px #919191,
- 
-    1px 10px 6px rgba(16,16,16,0.4),
-    1px 14px 10px rgba(16,16,16,0.2);
-}
 
-.comma{
-	font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 .trans{
 
     font-weight: 700;
     color: #e2e2e2;
-	text-shadow: 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a;
+	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 	
 }
 
-.pressed{
-	color: #5a5a5a;
-	text-shadow: 0px 2px 3px #555;
-}
 
 
 
-.cv {
-	margin-top: 10px;
+a.button {
+	appearance: button;
+	margin-top: 2vw;
 	display: inline-block;
-	padding: 5px 10px;
-	font-size: 24px;
+	padding: 3px;
+	font-size: 1.5vw;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 
 
-    color: #5a5a5a;
 
-	background-color: #e2e2e2 ;
+	font-family: Roboto;
 
-	border-radius: 15px;
+	font-weight:300;
+    color: black;
+
+	background-color: #b1adad ;
+	border-width: 1px;
+	border-radius: 10px;
 
   }
   
-  .button:hover {background-color: #5a5a5a;}
+  .button:hover {
+	  background-color: #5a5a5a;
+	  color: whitesmoke;
+}
   
   .button:active {
 	background-color: #5a5a5a;
@@ -272,6 +267,7 @@ header a{
 	background-repeat: no-repeat;
 	background-size: 60%;
 	background-position: center; 
+	/*background-attachment: fixed;*/
 
 	
 }
@@ -281,20 +277,20 @@ header a{
 
 	background-color: #948b91;
 	width: 100%;
-	min-height: 95vh;
+	height: 92vh;
 	background-position: center;
 	background-size: cover;
 	border-radius: 25px;
 	position: relative;
 	align-content: center;
-
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 
 }
 
 .img3{
 
 	float: left;
+	padding: auto;
 	text-align: center;
 	height: 100%;
 	width: 50%;
@@ -302,20 +298,114 @@ header a{
 	position: relative;
 	background-image: url('../res/3.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center; 
+	background-color: #dfcbd7;
+	background-size: 40%;
+	background-position: inherit;
+	background-attachment: fixed;
 	
 	
 }
 
 .edutext{
 
-	top: 50%;
-	transform: translateY(-50%);
-	font-size:9vw;
-	font-weight: 700;
-    color: #948b91;
-	text-shadow: 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a, 0 0 1px #5a5a5a;
 	
+	font-size:7vw;
+	font-weight: 700;
+    color: #dfcbd7;
+	text-shadow: 0 0 1px #808080, 0 0 1px #808080, 0 0 1px whitesmoke, 0 0 1px whitesmoke;	
 	
 }
+
+.text{
+	padding-top: 5%;
+	margin-top: 1vh;
+	height: 30%;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	align-self: center;
+}
+
+.edu-info{
+	
+	width: 50%;
+	float: left;
+
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size:1.5vw;
+    font-family: Montserrat;
+
+    font-weight:300;
+    color: whitesmoke;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.contact{
+
+	position: relative;
+	background-color: #8a918d;
+	background-image: url('../res/7.gif');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-size: contain;
+	font-family:Montserrat;
+    color: whitesmoke;
+	margin-bottom: 20px;
+	
+
+	padding: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	min-width: 92vw;
+	height: 92vh;
+	background-position:center;
+	background-size:contain;
+
+	align-content: center;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.contact-intro{
+
+	width: 50%;
+	float: right;
+	position:absolute;
+	text-align: justify;
+	align-self: center;
+	align-content: center;
+  top: 80%;
+  transform: translateY(-50%);
+  color: whitesmoke;
+  font-size:1.5vw;
+  overflow: hidden;
+	padding-right: 5%;
+	margin-top:2.5%;
+	margin-bottom: 4%;
+}
+
+.contact-intro a{
+	padding-right: 2vw;
+	color: whitesmoke;
+	font-size: 1.5vw;
+}
+
+.contact-head{
+	margin-top: 4%;
+	width: 50%;
+	float: left;
+	position: relative;
+	text-align: center;
+
+	font-weight: bolder;
+
+  font-size:4vw;
+
+	
+
+}
+
