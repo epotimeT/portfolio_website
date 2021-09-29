@@ -2,14 +2,14 @@
 
 
 body {
-	width: 95vw;
-	padding: 5px;
+	width: 93vw;
+	padding: 1vw;
 	margin: auto;
 	border: 0px;
 	background-image: url("../res/background.gif");
 	background-repeat: repeat;
 	background-size: 50px;
-	
+
 	/*background-color: whitesmoke;
 	/*padding-top:20px;
 	padding-bottom: 20px;
