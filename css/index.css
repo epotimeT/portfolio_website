@@ -39,16 +39,20 @@ header a{
 
 .card{
 
-	min-width: 92vw;
-	min-height: 92vh;
+	width: 92vw;
 	height: 92vh;
+	min-width: 500px;
+	min-height: 600px;
+
 	background-position: center;
 	background-size: cover;
 	background-color: #e8d3ca;
 	position: relative;
 	align-content: center;
 	border-radius: 25px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	display: inline-block;
 }
 
 .img{
@@ -160,8 +164,10 @@ header a{
 	/*background-image: radial-gradient(ellipse farthest-corner at 0 20%, #e2e2e2  50%, #e2e2e2  70%, #c2dae6 70%);
 	/*linear-gradient(135deg,#c2dae6 70%, #71b5e6 60%);*/
 
-	min-width: 92vw;
+	width: 92vw;
 	height: 92vh;
+	min-width: 500px;
+	min-height: 600px;
 	overflow: hidden;
 	background-position: center;
 	background-size: cover;
@@ -169,7 +175,8 @@ header a{
 	border-radius: 25px;
 	position: relative;
 	padding: 2%;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	display: inline-block;
 	
 }
 
@@ -181,7 +188,7 @@ header a{
 	padding-right: 5%;
 	font-size:2vw;
     font-family: Roboto;
-
+	text-align: justify;
 	font-weight:300;
 
     color: black;
@@ -224,7 +231,7 @@ a.button {
 	appearance: button;
 	margin-top: 2vw;
 	display: inline-block;
-	padding: 3px;
+	padding: 0.5vw;
 	font-size: 1.5vw;
 	cursor: pointer;
 	text-align: center;
@@ -238,6 +245,8 @@ a.button {
     color: black;
 
 	background-color: #b1adad ;
+	padding-left: 1vw;
+	padding-right:1vw;
 	border-width: 1px;
 	border-radius: 10px;
 
@@ -276,14 +285,18 @@ a.button {
 .education{
 
 	background-color: #948b91;
-	width: 100%;
+	width: 92vw;
 	height: 92vh;
+	min-width: 500px;
+	min-height: 600px;
 	background-position: center;
 	background-size: cover;
 	border-radius: 25px;
 	position: relative;
 	align-content: center;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+	display: inline-block;
 
 }
 
@@ -356,18 +369,21 @@ a.button {
     color: whitesmoke;
 	margin-bottom: 20px;
 	
-
+	overflow: hidden;
 	padding: 4%;
 	padding-top: 4%;
 	padding-bottom: 4%;
-	min-width: 92vw;
+	width: 92vw;
 	height: 92vh;
+	min-width: 500px;
+	min-height: 600px;
 	background-position:center;
 	background-size:contain;
 
 	align-content: center;
 	border-radius: 25px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
+	display: inline-block;
 }
 
 .contact-intro{
@@ -409,3 +425,25 @@ a.button {
 
 }
 
+
+.arrow-down{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+	padding: 2em;
+	
+}
+
+.arrow-down a{
+	color: rgb(70, 70, 70);
+}
+.arrow-down a:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+footer{
+	text-align: center;
+	font: montserrat;
+	margin: auto;
+}
