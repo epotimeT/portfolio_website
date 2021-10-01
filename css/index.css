@@ -317,9 +317,9 @@ a.button {
 }
 
 .text{
-	padding-top: 5%;
-	margin-top: 1%;
-	height: 30%;
+
+	margin-top: 4.5%;
+	height: 33.333%;
 	width: 100%;
 	display: inline-block;
 	position: relative;
@@ -380,11 +380,11 @@ a.button {
 	text-align: justify;
 	align-self: center;
 	align-content: center;
-  top: 80%;
-  transform: translateY(-50%);
-  color: whitesmoke;
-  font-size: calc(0.9vw + 0.9vh + 0.4vmin);
-  overflow: hidden;
+	top: 80%;
+	transform: translateY(-50%);
+	color: whitesmoke;
+	font-size: calc(0.9vw + 0.9vh + 0.4vmin);
+	overflow: hidden;
 	padding-right: 5%;
 	margin-top:2.5%;
 	margin-bottom: 4%;
