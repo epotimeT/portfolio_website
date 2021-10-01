@@ -144,6 +144,7 @@ header a{
 	float: left;
 	width: 100%;
 	padding-top: 2%;
+	margin-bottom: 5%;
 
 }
 
@@ -382,7 +383,7 @@ a.button {
   top: 80%;
   transform: translateY(-50%);
   color: whitesmoke;
-  font-size: calc(1vw + 1vh + 0.5vmin);
+  font-size: calc(0.9vw + 0.9vh + 0.4vmin);
   overflow: hidden;
 	padding-right: 5%;
 	margin-top:2.5%;
@@ -400,8 +401,6 @@ a.button {
 	width: 50%;
 	float: left;
 	position: relative;
-	text-align: center;
-
 	font-weight: bolder;
 
 	font-size: calc(2vw + 2vh + 1vmin);
