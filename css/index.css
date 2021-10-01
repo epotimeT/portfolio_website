@@ -2,9 +2,12 @@
 
 
 body {
-	width: 93vw;
-	padding: 1vw;
-	margin: auto;
+	width: 96vw;
+	margin: 1.5vh;
+	min-width: 200px;
+
+	margin-left: auto;
+	margin-right: auto;
 	border: 0px;
 	background-image: url("../res/background.gif");
 	background-repeat: repeat;
@@ -22,12 +25,12 @@ body {
 
 header {
 
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 0.2%;
+	padding-left: 0.3%;
 	font-family: 'Cedarville Cursive';
 	color: black;
-	font-size:20px;
-	margin-bottom: 5px;
+	font-size:calc(0.7vw + 0.7vh + 0.7vmin);
+
 
 
 }
@@ -39,18 +42,18 @@ header a{
 
 .card{
 
-	width: 92vw;
+	margin: 0px;
+	width: 96vw;
 	height: 92vh;
-	min-width: 500px;
-	min-height: 600px;
-
+	min-height: 200px;
+	border-radius: 25px;
+	margin-bottom: 3%;
 	background-position: center;
 	background-size: cover;
 	background-color: #e8d3ca;
 	position: relative;
 	align-content: center;
-	border-radius: 25px;
-	margin-bottom: 30px;
+	
 	overflow: hidden;
 	display: inline-block;
 }
@@ -78,8 +81,8 @@ header a{
 	max-width: 100%;
 	max-height: 100%;
 	position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+	top: 50%;
+	transform: translateY(-50%);
 
 }
 
@@ -88,15 +91,15 @@ header a{
 	width: 50%;
 	float: right;
 	position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+	top: 50%;
+	transform: translateY(-50%);
 }
 .name{
 
-	font-size: 9.0vw;
+	font-size: calc(7vw + 1vh + 1vmin);
 	font-family:Montserrat;
 	font-weight: 100;
-	padding-bottom: 10px;
+	padding-bottom: 1%;
 	float: left;
 	width: 100%;
 
@@ -108,8 +111,7 @@ header a{
 	font-family:Perpetua;
 	font-weight: 100;
 	width: 100%;
-	font-size: 25px;
-	font-size: 1.5vw;
+	font-size: calc(1vw + 1vh + 0.5vmin);
 }
 
 .definition{
@@ -119,9 +121,9 @@ header a{
 	font-weight: 100;
 	width: 100%;
 	font-style: italic;
-	font-size: 20px;
-	padding-top: 10px;
-	font-size: 1.0vw;
+	font-size: calc(0.7vw + 0.7vh + 0.5vmin);
+	padding-top: 1%;
+
 
 }
 
@@ -132,26 +134,23 @@ header a{
 	font-weight:normal;
 	width: 100%;
 	font-size: 25px;
-	padding-top: 10px;
-	font-size: 1.5vw;
+	padding-top: 1%;
+	font-size: calc(0.7vw + 0.7vh + 0.7vmin);
 
 }
 
 .cardcontact{
 
-	size: 200px;
 	float: left;
-	color: black;
 	width: 100%;
-	font-weight: 900;
-	padding-top: 10px;
+	padding-top: 2%;
 
 }
 
 .cardcontact a{
-	padding-right: 10px;
+	padding-right: 3%;
 	color: black;
-	font-size: 1.5vw;
+	font-size: calc(0.7vw + 0.7vh + 0.7vmin);
 }
 
 
@@ -160,42 +159,34 @@ header a{
 .intro{
 
 	background-color: #e2e2e2;
-	/*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
-	/*background-image: radial-gradient(ellipse farthest-corner at 0 20%, #e2e2e2  50%, #e2e2e2  70%, #c2dae6 70%);
-	/*linear-gradient(135deg,#c2dae6 70%, #71b5e6 60%);*/
-
-	width: 92vw;
+	width: 96vw;
 	height: 92vh;
-	min-width: 500px;
-	min-height: 600px;
+	border-radius: 25px;
+	min-height: 200px;
+	margin-bottom: 3%;
 	overflow: hidden;
 	background-position: center;
 	background-size: cover;
 	align-content: center;
-	border-radius: 25px;
 	position: relative;
 	padding: 2%;
-	margin-bottom: 30px;
 	display: inline-block;
 	
 }
 
 .intro-text{
-	width: 50%;
+	width: 45%;
 	float: left;
-
-	padding-left: 5%;
-	padding-right: 5%;
-	font-size:2vw;
+	margin-left: 5%;
+	font-size: calc(1vw + 0.5vh + 0.5vmin);
     font-family: Roboto;
 	text-align: justify;
 	font-weight:300;
-
     color: black;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-    
+    line-height: 1.5;
 
 }
 
@@ -203,12 +194,9 @@ header a{
 
 
 .intro-head{
-
-	font-size: 4vw;
-	/*font-weight: 700;*/
+	font-size: calc(3vw + 2vh + 1vmin);;
 	font-family: Roboto;
-	padding-bottom: 5%;
-	/*text-decoration: underline overline line-through;*/
+	padding-bottom: 3%;
 }
 
 
@@ -217,11 +205,9 @@ header a{
 
 
 .trans{
-
     font-weight: 700;
     color: #e2e2e2;
-	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
-	
+	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;	
 }
 
 
@@ -229,10 +215,10 @@ header a{
 
 a.button {
 	appearance: button;
-	margin-top: 2vw;
+	margin-top: 5%;
 	display: inline-block;
-	padding: 0.5vw;
-	font-size: 1.5vw;
+	padding: calc(0.25vw + 0.25vh + 0.25vmin);
+	font-size: calc(0.7vw + 0.5vh + 0.25vmin);
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
@@ -241,13 +227,13 @@ a.button {
 
 	font-family: Roboto;
 
-	font-weight:300;
+	font-weight:500;
     color: black;
 
 	background-color: #b1adad ;
-	padding-left: 1vw;
-	padding-right:1vw;
-	border-width: 1px;
+	padding-left: 2%;
+	padding-right:2%;
+	border-width: 1%;
 	border-radius: 10px;
 
   }
@@ -269,13 +255,13 @@ a.button {
 
 	float: right;
 	height: 100%;
-	width: 50%;
-	max-width: 50%;
+	width: 45%;
+	max-width: 45%;
 	position: relative;
 	background-image: url('../res/2.png');
 	background-repeat: no-repeat;
-	background-size: 60%;
-	background-position: center; 
+	background-size: 100%;
+	background-position: 60%; 
 	/*background-attachment: fixed;*/
 
 	
@@ -285,16 +271,16 @@ a.button {
 .education{
 
 	background-color: #948b91;
-	width: 92vw;
+	margin: 0px;
+	width: 96vw;
 	height: 92vh;
-	min-width: 500px;
-	min-height: 600px;
+	border-radius: 25px;
+	min-height: 200px;
+	margin-bottom: 3%;
 	background-position: center;
 	background-size: cover;
-	border-radius: 25px;
 	position: relative;
 	align-content: center;
-	margin-bottom: 30px;
 	overflow: hidden;
 	display: inline-block;
 
@@ -322,7 +308,7 @@ a.button {
 .edutext{
 
 	
-	font-size:7vw;
+	font-size: calc(3vw + 3vh + 1.5vmin);
 	font-weight: 700;
     color: #dfcbd7;
 	text-shadow: 0 0 1px #808080, 0 0 1px #808080, 0 0 1px whitesmoke, 0 0 1px whitesmoke;	
@@ -331,7 +317,7 @@ a.button {
 
 .text{
 	padding-top: 5%;
-	margin-top: 1vh;
+	margin-top: 1%;
 	height: 30%;
 	width: 100%;
 	display: inline-block;
@@ -346,7 +332,7 @@ a.button {
 
 	padding-left: 5%;
 	padding-right: 5%;
-	font-size:1.5vw;
+	font-size: calc(0.9vw + 0.9vh + 0.25vmin);
     font-family: Montserrat;
 
     font-weight:300;
@@ -367,22 +353,21 @@ a.button {
 	background-size: contain;
 	font-family:Montserrat;
     color: whitesmoke;
-	margin-bottom: 20px;
+	margin-bottom: 2%;
 	
 	overflow: hidden;
 	padding: 4%;
 	padding-top: 4%;
 	padding-bottom: 4%;
-	width: 92vw;
+	margin: 0px;
+	width: 96vw;
 	height: 92vh;
-	min-width: 500px;
-	min-height: 600px;
+	min-height: 200px;
+	border-radius: 25px;
+	margin-bottom: 3%;
 	background-position:center;
 	background-size:contain;
-
 	align-content: center;
-	border-radius: 25px;
-	margin-bottom: 30px;
 	display: inline-block;
 }
 
@@ -397,7 +382,7 @@ a.button {
   top: 80%;
   transform: translateY(-50%);
   color: whitesmoke;
-  font-size:1.5vw;
+  font-size: calc(1vw + 1vh + 0.5vmin);
   overflow: hidden;
 	padding-right: 5%;
 	margin-top:2.5%;
@@ -407,7 +392,7 @@ a.button {
 .contact-intro a{
 	padding-right: 2vw;
 	color: whitesmoke;
-	font-size: 1.5vw;
+	font-size: calc(1vw + 1vh + 0.5vmin);
 }
 
 .contact-head{
@@ -419,7 +404,7 @@ a.button {
 
 	font-weight: bolder;
 
-  font-size:4vw;
+	font-size: calc(2vw + 2vh + 1vmin);
 
 	
 
